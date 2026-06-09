@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Employee",
+  "type": "object",
+  "required": ["id", "name", "email", "department", "salary"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique identifier for the employee"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full name of the employee"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address of the employee"
+    },
+    "department": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Department the employee belongs to"
+    },
+    "salary": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Annual salary of the employee"
+    }
+  },
+  "additionalProperties": false
+}
