@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="KAN-1 Employee API Suite" verbose="2" parallel="none">
+    <test name="Employee CRUD API Tests">
+        <classes>
+            <class name="com.kan.tests.EmployeeApiTest"/>
+        </classes>
+    </test>
+</suite>
