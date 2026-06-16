@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ELITEA API Suite" verbose="1">
+    <test name="Create Api Tests">
+        <classes>
+            <class name="com.elitea.apiautomation.tests.CreateApiTest"/>
+        </classes>
+    </test>
+</suite>
